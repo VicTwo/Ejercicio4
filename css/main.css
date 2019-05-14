@@ -1,0 +1,91 @@
+
+
+html,
+body,
+header,
+.view {
+  height: 100%;
+}
+
+@media (max-width: 740px) {
+  html,
+  body,
+  header,
+  .view {
+    height: 1000px;
+  }
+}
+@media (min-width: 800px) and (max-width: 850px) {
+  html,
+  body,
+  header,
+  .view {
+    height: 650px;
+  }
+}
+
+.top-nav-collapse {
+  background-color: #ffffff !important;
+}
+
+.navbar:not(.top-nav-collapse) {
+  background: transparent !important;
+}
+
+@media (max-width: 991px) {
+  .navbar:not(.top-nav-collapse) {
+    background: #ffffff !important;
+  }
+}
+
+.rgba-gradient {
+  background: -webkit-linear-gradient(45deg, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.4) 100%);
+  background: -webkit-gradient(linear, 45deg, from(rgba(0, 0, 0, 0.7), rgba(72, 15, 144, 0.4) 100%)));
+  background: linear-gradient(to 45deg, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.4) 100%);
+}
+
+.card {
+  background-color: rgba(0, 0, 0, 0.2);
+}
+
+.md-form label {
+  color: #000000;
+}
+
+h6 {
+  line-height: 1.7;
+}
+
+.universo1{
+  text-align: justify;
+  font-size: 20px;
+  color: white;
+  text-shadow: -1px -1px 0 #000,
+  1px -1px 0 #000,
+  -1px 1px 0 #000,
+  1px 1px 0 #000;
+}
+
+#Texto{
+  text-align: justify;
+  font-size: 20px;
+
+}
+
+.view{
+  top: -20px;
+  text-align: justify;
+  font-size: 20px;
+  color: white;
+  text-shadow: -1px -1px 0 #000,
+  1px -1px 0 #000,
+  -1px 1px 0 #000,
+  1px 1px 0 #000;
+}
+.view3{
+  margin-top: 200px;margin-left: 60px;margin-right: -45px;
+}
+
+.view2{
+  margin-top: 200px;margin-left: 400px;margin-right: -45px;
+}
